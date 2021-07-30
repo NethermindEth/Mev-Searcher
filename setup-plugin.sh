@@ -1,5 +1,5 @@
 #! /bin/bash
-cp -r Nethermind.MevSearcher* ./NethTest/src/Nethermind/
+cp -r Nethermind.MevSearcher* ./nethermind/src/Nethermind/
 cp -r configs/* ./nethermind/src/Nethermind/Nethermind.Runner/configs
 cwd=$(pwd)
 #rm -rf Nethermind.MevSearcher/*
