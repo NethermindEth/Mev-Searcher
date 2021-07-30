@@ -1,6 +1,6 @@
 #! /bin/bash
 cp -r Nethermind.MevSearcher* ./NethTest/src/Nethermind/
-cp -r configs/* ./NethTest/src/Nethermind/Nethermind.Runner/configs
+cp -r configs/* ./nethermind/src/Nethermind/Nethermind.Runner/configs
 cwd=$(pwd)
 #rm -rf Nethermind.MevSearcher/*
 #rm -rf Nethermind.MevSearcher.Test/*
@@ -17,7 +17,7 @@ symlink_creator () {
         fi
     done
 }
-cd ./NethTest/src/Nethermind/
+cd ./nethermind/src/Nethermind/
 symlink_creator "Nethermind.MevSearcher"
 symlink_creator "Nethermind.MevSearcher.Test"
 dotnet sln Nethermind.sln add Nethermind.MevSearcher
