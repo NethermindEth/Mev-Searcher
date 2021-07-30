@@ -17,5 +17,5 @@ To Execute
 cd nethermind/src/Nethermind
 dotnet build Nethermind.sln -c Release
 cd Nethermind.Runner
-dotnet run -c Release --no-build -- --config mainnet
+dotnet run -c Release --no-build -- --config mainnet_mev_searcher
 ```
