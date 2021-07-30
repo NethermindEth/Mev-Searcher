@@ -3,7 +3,8 @@
 ## Usage Guide 
 
 You must have dotnet installed on your system
-https://dotnet.microsoft.com/download?WT.mc_id=dotnet-35129-website
+
+`https://dotnet.microsoft.com/download?WT.mc_id=dotnet-35129-website`
 
 
 Setup
