@@ -15,7 +15,7 @@ sudo apt-get update; \
   sudo apt-get install -y dotnet-sdk-5.0
 ```
 
-###Other linux versions follow the installation guide :-
+### For other linux versions follow the installation guide 
 https://dotnet.microsoft.com/download?WT.mc_id=dotnet-35129-website
 
 ### MacOS
