@@ -24,6 +24,8 @@ https://dotnet.microsoft.com/download?WT.mc_id=dotnet-35129-website
 ### Windows
 https://dotnet.microsoft.com/download?WT.mc_id=dotnet-35129-website
 
+Execute using git bash
+
 ### Setup
 ```
 git clone https://github.com/NethermindEth/Mev-Searcher.git --recursive
